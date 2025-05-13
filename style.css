@@ -256,12 +256,27 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background: linear-gradient(to bottom right, #ebf4ff, #f9fafb);
     position: relative;
     padding-top: 4rem;
   }
   
+  .hero-image {
+
+    height: auto;
+    max-width: 280px;
+    margin: 100px;
+  }
+
+  .hero-image img {
+    width: 120%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
   .hero-content {
     text-align: center;
     max-width: 800px;
