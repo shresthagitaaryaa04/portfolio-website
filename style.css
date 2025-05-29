@@ -908,3 +908,26 @@
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+    max-width: 60%;
+    word-break: break-word;
+  }
+}
+
