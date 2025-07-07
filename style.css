@@ -34,7 +34,7 @@
   
   body {
     font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     color: var(--gray-700);
     background-color: var(--white);
     overflow-x: hidden;
@@ -132,7 +132,7 @@
   
   /* Navbar */
   .navbar {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
@@ -428,7 +428,7 @@
   
   .bullet {
     color: var(--primary);
-    font-weight: 700;
+    font-weight: 1000;
   }
   
   .font-medium {
